@@ -1,3 +1,3 @@
-Feature: Report reader user's stuffs
+Feature: Report reader's stuffs
 
-  Scenario: RRU can read reports
+  Scenario: RR can read reports

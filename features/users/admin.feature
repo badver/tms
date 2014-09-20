@@ -5,3 +5,4 @@ Feature: Admin's stuffs
   Scenario: Admin can delete a user
 
   Scenario: Admin can change a user's role
+
