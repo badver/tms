@@ -32,12 +32,13 @@ group :development, :test do
   gem 'spring'
   gem 'rspec-rails', '~> 3.0.0'
   gem 'sqlite3'
+  gem 'factory_girl_rails'
 end
 
 group :test do
-  gem 'cucumber-rails', :require => false
+  gem 'cucumber-rails'#, :require => false
   gem 'database_cleaner'
-  gem 'simplecov', :require => false
+  gem 'simplecov'#, :require => false
   gem 'selenium-webdriver', '~> 2.43.0'
   gem 'capybara', '~> 2.4.1'
 end
