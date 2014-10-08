@@ -6,6 +6,9 @@ Feature: Projects
 
   Scenario: Add new Project
 
-    Given I'm the User with role Test Designer
-    When I add new Project with name "Test Project"
-    Then I should see it in the Projects' List
+  Scenario: Remove Project
+
+  Scenario: Edit Project
+
+  Scenario: View Project
+

@@ -6,8 +6,12 @@ Feature: Requirements
 
   Scenario: Add new requirement
 
-    Given I'm the User with role Test Designer
-    When I add new requirement "Test Requirement"
-    Then I see requirement "Test Requirement" in the requirement's list
+  Scenario: Remove requirement
 
+  Scenario: Edit requirement
 
+  Scenario: View requirement
+
+  Scenario: view Test Cases that cover this requirement
+
+  Scenario:

@@ -1,10 +1,12 @@
 Feature: Admin's stuffs
 
-  Background: Given User with role Admin
+  Background:
+    Given I'm a user with role Admin
 
-  Scenario: Admin can create new user
+  Scenario: I can create new user
 
-  Scenario: Admin can delete a user
+  Scenario: I can delete a user
 
-  Scenario: Admin can change a user's role
+  Scenario: I can change a user's role
+
 

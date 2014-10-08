@@ -6,6 +6,14 @@ Feature: Test Cases
 
   Scenario: Add new Test Case
 
-    Given I'm the User with role Test Designer
-    When I add new Test Case with name "Test TestCase"
-    Then I should see test case "Test TestCase" in TestCase's list
+  Scenario: Remove Test Case
+
+  Scenario: Edit Test Case
+
+  Scenario: View Test Case
+
+  Scenario: view requirements covered by Test Case
+
+  Scenario: view products with this Test Case assigned
+
+  Scenario: assign test step to this Test Case
