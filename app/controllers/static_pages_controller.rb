@@ -4,8 +4,10 @@ class StaticPagesController < ApplicationController
   end
 
   def signin
+    @title='Sign in'
   end
 
   def about
+    @title='About'
   end
 end

@@ -1,8 +1,11 @@
 Rails.application.routes.draw do
+  get 'users/new'
+
   root 'static_pages#home'
 
-  get 'static_pages/signin'
-  get 'static_pages/about'
+  #match '/about',   to: 'static_pages#about',   via: 'get'
+  get '/about' => 'static_pages#about'
+  get '/signin' => 'static_pages#signin'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
